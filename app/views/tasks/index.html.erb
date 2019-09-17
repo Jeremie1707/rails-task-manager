@@ -1,0 +1,7 @@
+<h1>TASKS LIST</h1>
+
+<% @tasks.each do |t| %>
+<li><%= t[:title] %></li>
+<li><%= t[:details] %></li>
+<li><%= t[:completed] %></li>
+<% end %>
